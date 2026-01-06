@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotina Fácil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head><link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#4a7cff">
+
+<body>
+
+  <h1>📅 Rotina Fácil</h1>
+
+  <!-- LOGIN -->
+  <div id="login">
+    <h2>Login</h2>
+
+    <input 
+      type="text" 
+      id="nome" 
+      placeholder="Seu nome">
+
+    <input 
+      type="date" 
+      id="nascimento">
+
+    <button id="btnLogin">
+      Entrar
+    </button>
+  </div>
+
+  <!-- APP -->
+  <div id="app" style="display:none;">
+    <h2 id="bemvindo"></h2>
+
+    <h3>➕ Criar rotina</h3>
+
+    <input 
+      type="text" 
+      id="tarefa" 
+      placeholder="O que vou fazer">
+
+    <input 
+      type="time" 
+      id="hora">
+
+    <button id="btnAdd">
+      Adicionar rotina
+    </button>
+
+    <hr>
+
+    <h3>🤖 Criar rotina automática</h3>
+
+    <input 
+      type="text" 
+      id="objetivo" 
+      placeholder="Ex: estudar, saúde, organização">
+
+    <button id="btnIA">
+      Criar rotina com IA
+    </button>
+
+    <hr>
+
+    <h3>📋 Minha rotina</h3>
+    <ul id="lista"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

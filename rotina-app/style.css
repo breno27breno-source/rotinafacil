@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  background: #e8f0ff;
+  padding: 20px;
+}
+
+#login, #app {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+button {
+  background: #4a7cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+li {
+  background: #f1f1f1;
+  margin-top: 6px;
+  padding: 8px;
+  border-radius: 6px;
+}
+body {
+  max-width: 420px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  font-size: 16px;
+}
